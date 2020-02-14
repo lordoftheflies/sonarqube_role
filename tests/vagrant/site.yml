@@ -1,5 +1,5 @@
 ---
-# roles/sonar_role/tests/vagrant/site.yml
+# roles/sonarqube_role/tests/vagrant/site.yml
 
 # run any pre tasks on target node
 

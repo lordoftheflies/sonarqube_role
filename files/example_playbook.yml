@@ -1,7 +1,7 @@
 ---
-# file: project/sonar_role.yml
+# file: project/sonarqube_role.yml
 
-- hosts: sonar_role
+- hosts: sonarqube_role
   become: false
   gather_facts: true
   pre_tasks:
@@ -9,9 +9,9 @@
     - set_fact: fact_role_name="{{ lookup('env','ANSIBLE_ROLE_NAME') }}"
     - debug: var=fact_role_name
 
-    - set_fact: fact_role_path="{{ lookup('pipe','pwd') }}/roles/sonar_role"
+    - set_fact: fact_role_path="{{ lookup('pipe','pwd') }}/roles/sonarqube_role"
     - debug: var=fact_role_path
 
   roles:
 
-    - sonar_role
+    - sonarqube_role

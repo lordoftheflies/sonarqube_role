@@ -1,5 +1,5 @@
 ---
-# roles/sonar_role/defaults/main.yml
+# roles/sonarqube_role/defaults/main.yml
 
 sonar_role_debug: false
 

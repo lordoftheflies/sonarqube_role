@@ -1,4 +1,4 @@
 ---
-# roles/sonar_role/vars/debian.yml
+# roles/sonarqube_role/vars/debian.yml
 
 sonar_role_package_extension: 'rpm'

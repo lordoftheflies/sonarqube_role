@@ -10,9 +10,9 @@ lint:
   options:
     config-file: .ansible-lint
 platforms:
-  - name: sonar_role-xenial
+  - name: sonarqube_role-xenial
     box: cjsteel/xenial
-  - name: sonar_role-bionic
+  - name: sonarqube_role-bionic
     box: cjsteel/bionic
 provisioner:
   name: ansible

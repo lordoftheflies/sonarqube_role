@@ -8,10 +8,10 @@ lint:
   options:
     config-file: .ansible-lint
 platforms:
-  - name: sonar_role-default-xenial
+  - name: sonarqube_role-default-xenial
     source:
       alias: ubuntu/xenial/amd64
-  - name: sonar_role-default-bionic
+  - name: sonarqube_role-default-bionic
     source:
       type: image
       alias: ubuntu/bionic/amd64

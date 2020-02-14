@@ -1,5 +1,5 @@
 ---
-# roles/sonar_role/tasks/debug.yml
+# roles/sonarqube_role/tasks/debug.yml
 
 # Include /tasks/debug-group-and-host-vars.yml
 

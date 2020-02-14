@@ -1,5 +1,5 @@
 ---
-# roles/sonar_role/tasks/debian_8.yml
+# roles/sonarqube_role/tasks/debian_8.yml
 
 - debug:
     msg:

@@ -1,2 +1,2 @@
 ---
-# roles/sonar_role/handlers/main.yml
+# roles/sonarqube_role/handlers/main.yml

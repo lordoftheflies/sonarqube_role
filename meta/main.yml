@@ -1,5 +1,5 @@
 ---
-# roles/sonar_role/meta/main.yml
+# roles/sonarqube_role/meta/main.yml
 
 dependencies:
 
@@ -9,10 +9,10 @@ dependencies:
 
 #  - role: scaffold
 galaxy_info:
-  role_name: 'sonar_role'
+  role_name: 'sonarqube_role'
   version: '1.0.0'
   author: 'lordoftheflies'
-  description: 'Ansible Galaxy role for maintain sonar_role.'
+  description: 'Ansible Galaxy role for maintain sonarqube_role.'
   company: 'Cherubits'
   license: MIT
   min_ansible_version: '2.9'
@@ -27,6 +27,6 @@ galaxy_info:
         - wheezy
   galaxy_tags:
     - cherubits
-    - sonar_role
+    - sonarqube_role
     - debian
     - ubuntu

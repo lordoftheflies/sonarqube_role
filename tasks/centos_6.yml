@@ -1,5 +1,5 @@
 ---
-# roles/sonar_role/tasks/centos_6.yml
+# roles/sonarqube_role/tasks/centos_6.yml
 
 
 - debug:
