@@ -1,0 +1,8 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - sonar_role_deployment_users_home: /home/vagrant
+    - sonar_role_testing_provider: vagrant
+  roles:
+    - sonar_role

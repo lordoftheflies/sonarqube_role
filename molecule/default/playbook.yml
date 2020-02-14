@@ -1,0 +1,9 @@
+---
+- name: Converge
+  hosts: all
+  vars:
+    - sonar_role_deployment_users_home: /root
+    - sonar_role_testing_provider: lxd
+
+  roles:
+    - sonar_role

@@ -1,0 +1,4 @@
+---
+# roles/sonar_role/vars/debian.yml
+
+sonar_role_package_extension: 'rpm'
