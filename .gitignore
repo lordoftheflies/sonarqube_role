@@ -1,0 +1,16 @@
+*~
+.ansible-galaxy
+generated_inventory
+.ansible/
+.env/
+.idea/
+*.log
+.private
+.prv
+*.pyc
+.retry
+*.retry
+.swp
+.vagrant/
+.vault
+.venv
